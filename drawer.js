@@ -10,7 +10,7 @@ const WIDTH=Dimensions.get('window').width
 const Drawerconfig={
     drawerWidth:WIDTH*0.75,
     contentComponent:({navigation})=>{
-        return(<Menudrawer />)
+        return(<Menudrawer navigation={navigation}/>)
     }
 }
 

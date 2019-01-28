@@ -18,9 +18,9 @@ render(){
                 source={require('../assets/icon.png')} />
             </Body>
             </Header>
-            <ListItem last>
+            <ListItem onPress={()=>this.props.navigation.navigate('Home')} last>
             <Icon type="FontAwesome" name="home" style={{color:'white'}}></Icon>
-            <Text style={styles.nav_text}>Home</Text>
+            <Text style={styles.nav_text} >Home</Text>
             </ListItem>
             <ListItem last>
             <Text style={styles.nav_text}>Profile</Text>
