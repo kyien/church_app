@@ -23,10 +23,13 @@ render(){
             <Text style={styles.nav_text} >Home</Text>
             </ListItem>
             <ListItem last>
-            <Text style={styles.nav_text}>Profile</Text>
+            <Text style={styles.nav_text}>Department Operations</Text>
              </ListItem>
             <ListItem last>
-            <Text style={styles.nav_text}>Settings</Text>
+            <Text style={styles.nav_text}>Manage Group</Text>
+             </ListItem>
+            <ListItem last>
+            <Text style={styles.nav_text}>Chats</Text>
              </ListItem>
             <ListItem last>
             <Text style={styles.nav_text}>Settings</Text>
